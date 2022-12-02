@@ -7,13 +7,13 @@ body {
     src: url(../font/FontsFree-Net-Arlon-Bold\ \(1\).ttf);
 }
 header {
-    background-image: url(../img/header.jpg);
-    background-color: aquamarine;
-    height: 500px;
-    width: 100vw;
-    background-position: 10px 60px;
-    font-family: "yasco" ;
-    padding-bottom: 100px;
+    background-position : 10% 30%;
+background-image: url(../img/header.jpg);
+    height: 70vh;
+    width: 100%;
+    background-position: 10% 30%;
+    object-fit: cover;
+    background-size: 100%;
 }
 #barreMauve{
     height: 250px;
