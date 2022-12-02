@@ -1,3 +1,75 @@
+
+.p1l {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    color: grey;
+}
+
+.h1l {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: blue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.foliol {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    margin: 5px;
+}
+
+.photohautl {
+    padding: 10px;
+}
+
+.photocardl {
+
+    padding-bottom: 10px;
+    margin-left: 40px;
+}
+
+.cards {
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+
+    justify-content: center;
+    display: grid;
+    grid-template-rows: max-content 200px 1fr;
+    border: 1px grey solid;
+    border: 1px solid rgba(237, 231, 225, 0, 4);
+    padding: 30px;
+}
+
+.card img {
+    object-fit: cover;
+    width: 60px;
+    height: 60px;
+
+}
+
+
+.btn1l {
+    display: flex;
+    justify-content: center;
+    background-color: #7b38d8;
+    color: white;
+    text-align: center;
+    font-size: 23px;
+    padding: 10px;
+    margin: 5px;
+}
+
+
+
+
 body {
     margin: 0%;
 
@@ -108,10 +180,137 @@ h1{
 
 #d6Y {
     padding-top: 100px;
+
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+
+
+.croix {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.croix2 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden
+}
+
+
+.neuf {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.descl {
+    border: black 1px solid;
+    margin-left: 180px;
+    margin-right: 220px;
+
+}
+
+
+.prempart {
+    overflow: hidden;
+}
+
+.imgcadr {
+
+width: 200px;
+height: 200px;
+}
+
+
+.txtcdr {
+        flex: 50%;
+      }
+
+ 
+
+
+
+:root {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  
+
+  
+  
+
+  .about-container {
+    max-width: 720px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .about-container > * {
+    width: 100%;
+margin-left: 200px
+;
+
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid grey;
+    margin: 20px 0 50px;
+    margin-bottom: 5px;
+  }
+  
+  @media (min-width: 52em) {
+    [class*="col-"] {
+      border: 1px solid grey
+    }
+  
+    .col-1 {
+      flex: 25%;
+    }
+  
+    .col-2 {
+      flex: 50%;
+    }
+  }
+
+
+  .titrlun{
+    font-size: 20px;
+    color: #7b38d8;
+  }
+
+  .button:nth-child(2)
+  {
+background-color: red;
+}
+
+
+.bouboubas {
+    justify-content: center;
+    background-color:white;
+    color: #7b38d8;
+    text-align: center;
+   border: none;
+    margin: 5px;
+
+}
+
 /* card */
 #cardY {
 
@@ -234,3 +433,4 @@ h1{
     display: flex;
     margin-left: 10px;
 }
+
