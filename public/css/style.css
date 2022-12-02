@@ -207,3 +207,25 @@ h1{
     justify-content: center;
     align-items: center;
 }
+.btY5{
+    background-color: white;
+    color: rgba(105,90,166,255);
+    border: 2px rgba(105,90,166,255)solid;
+    border-radius: 25%;
+    font-family: "yasco" ;
+}
+#derBt{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#hrF{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cpr{
+    display: flex;
+    justify-content: center;
+}
