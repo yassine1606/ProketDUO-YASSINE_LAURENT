@@ -21,6 +21,7 @@ background-image: url(../img/header.jpg);
     height: 250px;
     background-color: rgba(105,90,166,255);
 }
+/* navbar */
 #navY {
     display: flex;
     justify-content: space-around;
