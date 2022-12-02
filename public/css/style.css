@@ -55,7 +55,7 @@
 }
 
 
-button {
+.btn1l {
     display: flex;
     justify-content: center;
     background-color: #7b38d8;
@@ -157,7 +157,7 @@ margin-left: 200px
   .row {
     display: flex;
     flex-wrap: wrap;
-    border: 1px solid green;
+    border: 1px solid grey;
     margin: 20px 0 50px;
   }
   
@@ -184,4 +184,15 @@ margin-left: 200px
   .button:nth-child(2)
   {
 background-color: red;
+}
+
+
+.bouboubas {
+    justify-content: center;
+    background-color:white;
+    color: #7b38d8;
+    text-align: center;
+   border: none;
+    margin: 5px;
+
 }
