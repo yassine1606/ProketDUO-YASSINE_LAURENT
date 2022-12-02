@@ -1,3 +1,4 @@
+
 .p1l {
     display: flex;
     align-items: center;
@@ -68,11 +69,123 @@
 
 
 
-.footerl {
+
+body {
+    margin: 0%;
+
+}
+@font-face {
+    font-family: "yasco" ;
+    src: url(../font/FontsFree-Net-Arlon-Bold\ \(1\).ttf);
+}
+/* header */
+header {
+    background-position : 10% 30%;
+background-image: url(../img/header.jpg);
+    height: 70vh;
+    width: 100%;
+    background-position: 10% 30%;
+    object-fit: cover;
+    background-size: 100%;
+}
+/* barre mauve */
+#barreMauve{
+    height: 250px;
+    background-color: rgba(105,90,166,255);
+}
+/* navbar */
+#navY {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 30px;
+}
+
+#navY1 {
+    margin-top: 30px;
+    color: white;
+    font-family: "yasco" ;
+}
+
+#navY2 {
+    display: flex;
+    justify-content: space-around;
+}
+/* Les titres */
+.clY1 {
+    margin-left: 70px;
+    margin-top: 30px;
+    font-family: "yasco" ;
+    color: white;
+}
+/* Font family*/
+p{
+    font-family: "yasco" ;
+
+}
+div{
+    font-family: "yasco" ;
+}
+span{
+    font-family: "yasco" ;
+}
+h1{
+    font-family: "yasco" ;
+}
+/* grand titre au milieu*/
+#d2Y {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 200px;
+    margin-top: 200px;
+    font-family: "yasco" ;
+}
+
+#s1Y {
+    font-size: 40px;
+}
+/* Titre lettre spacing */
+#s2Y {
+    letter-spacing: 15px;
+    font-size: 20px;
+    font-family: "yasco" ;
+}
+#btY1 {
+    background-color: rgba(105,90,166,255);
+    color: #fff;
+    border: none;
+    font-family: "yasco" ;
+    border-radius: 10px;
+}
+#allY1 {
+    padding-top: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+/* Couleur des buttons */
+#h111{
+    color:rgba(105,90,166,255) ;
+}
+
+#ssY2 {
+    color: rgba(105,90,166,255);
+    font-family: "yasco" ;
+}
+
+#spp2Y {
+    color: rgba(105,90,166,255);
+    font-family: "yasco" ;
+}
+
+#d6Y {
+    padding-top: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 
 .croix {
@@ -196,5 +309,128 @@ background-color: red;
    border: none;
     margin: 5px;
 
+}
+
+/* card */
+#cardY {
+
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.cdY {
+    padding: 30px;
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    width: 130px;
+    margin-left: 2%;
+    text-align: center;
+    margin-top: 30px;
+    font-family: "yasco" ;
+}
+#btY2{
+
+    margin-top: 20px;
+    background-color: white;
+    color: rgba(105,90,166,255);
+    border: 2px rgba(105,90,166,255)solid;
+    border-radius: 25%;
+    font-family: "yasco" ;
+}
+.sssp1 {
+    color: rgba(105,90,166,255);
+    font-family: "yasco" ;
+}
+/* dernier titre*/
+#txtY1{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#h1yy{
+    margin-top: 7%;
+}
+/* button */
+#btHire{
+   margin-top: 100px;
+   margin-left: 10%;
+   background-color: white; /* Green */
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+#div7Y{
+    padding-top: 10%;
+    display: flex;
+    justify-content: center;
+}
+#h111{
+}
+#div8Y{
+    display: flex;
+    justify-content: center;
+}
+.clY3{
+    color: black;
+    margin-left: 70px;
+    margin-top: 30px;
+    font-family: "yasco" ;
+}
+#navYY {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 30px;
+}
+
+#navYY1 {
+    margin-top: 30px;
+    color: black;
+    font-family: "yasco" ;
+}
+
+#navYY2 {
+    display: flex;
+    justify-content: space-around;
+}
+#divFo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btY5{
+    background-color: white;
+    color: rgba(105,90,166,255);
+    border: 2px rgba(105,90,166,255)solid;
+    border-radius: 25%;
+    font-family: "yasco" ;
+}
+#derBt{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#hrF{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cpr{
+    display: flex;
+    justify-content: center;
+}
+#deeer{
+    display: flex;
+    margin-left: 10px;
 }
 
