@@ -30,6 +30,7 @@
     padding-right: 50px;
     padding-bottom: 20px;
 }
+
 .cards {
     grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
     display: flex;
@@ -41,9 +42,9 @@
     justify-content: center;
     display: grid;
     grid-template-rows: max-content 200px 1fr;
-    border: 1px grey solid;  
-    border: 1px solid rgba(237, 231, 225,0,4); 
-padding: 40px;
+    border: 1px grey solid;
+    border: 1px solid rgba(237, 231, 225, 0, 4);
+    padding: 40px;
 }
 
 .card img {
@@ -54,7 +55,7 @@ padding: 40px;
 
 
 button {
-    display:flex;
+    display: flex;
     justify-content: center;
 
     background-color: #7b38d8;
@@ -64,12 +65,28 @@ button {
     padding: 10px;
     margin: 5px;
 
-  }
+}
 
 
 
 .footerl {
-    display:flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.croix {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.neuf {
+
+    display: flex;
     justify-content: center;
     align-items: center;
 }
