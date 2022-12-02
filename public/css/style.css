@@ -57,14 +57,12 @@
 button {
     display: flex;
     justify-content: center;
-
     background-color: #7b38d8;
     color: white;
     text-align: center;
     font-size: 23px;
     padding: 10px;
     margin: 5px;
-
 }
 
 
@@ -84,9 +82,40 @@ button {
 }
 
 
+.croix2 {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility:hidden
+}
+
+
 .neuf {
 
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.descl{
+    border: black 1px solid;
+margin-left: 180px;
+margin-right: 220px;
+    
+}
+
+
+.prempart {
+    overflow:hidden;
+}
+
+.imgcadr { 
+    float: left;
+  
+}
+
+
+.txtcdr{
+
 }
