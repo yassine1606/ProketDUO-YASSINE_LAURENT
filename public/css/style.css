@@ -92,13 +92,9 @@ h1{
     justify-content: center;
     align-items: center;
 }
-
-#d3Y {}
-
-#d4y {}
-
-#ssY1 {}
-
+#h111{
+    color:rgba(105,90,166,255) ;
+}
 #ssY2 {
     color: rgba(105,90,166,255);
     font-family: "yasco" ;
@@ -172,4 +168,37 @@ h1{
   display: inline-block;
   font-size: 16px;
   cursor: pointer;
+}
+#div7Y{
+    padding-top: 10%;
+    display: flex;
+    justify-content: center;
+}
+#h111{
+}
+#div8Y{
+    display: flex;
+    justify-content: center;
+}
+.clY3{
+    color: black;
+    margin-left: 70px;
+    margin-top: 30px;
+    font-family: "yasco" ;
+}
+#navYY {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 30px;
+}
+
+#navYY1 {
+    margin-top: 30px;
+    color: black;
+    font-family: "yasco" ;
+}
+
+#navYY2 {
+    display: flex;
+    justify-content: space-around;
 }
