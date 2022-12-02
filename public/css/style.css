@@ -23,3 +23,26 @@ header{
     margin-top: 30px;
     color: white;
 }
+#d2Y{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 200px;
+    margin-top: 200px;
+}
+#s1Y{
+    font-size: 40px;
+}
+#s2Y{
+    letter-spacing: 15px;
+    font-size: 20px;
+}
+#s3Y{
+
+}
+#btY1{
+    background-color:purple;
+    color: #fff;
+    border:none;
+    border-radius:10px;
+}
