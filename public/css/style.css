@@ -72,33 +72,30 @@ h1{
 #s1Y {
     font-size: 40px;
 }
-
+/* Titre lettre spacing */
 #s2Y {
     letter-spacing: 15px;
     font-size: 20px;
     font-family: "yasco" ;
 }
-
-#s3Y {}
-
 #btY1 {
     background-color: rgba(105,90,166,255);
     color: #fff;
     border: none;
     font-family: "yasco" ;
     border-radius: 10px;
-
 }
-
 #allY1 {
     padding-top: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+/* Couleur des buttons */
 #h111{
     color:rgba(105,90,166,255) ;
 }
+
 #ssY2 {
     color: rgba(105,90,166,255);
     font-family: "yasco" ;
