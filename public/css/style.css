@@ -1,0 +1,25 @@
+header{
+    background-image: url(../img/header.jpg);
+    background-color: aquamarine;
+    height: 500px;
+    width: 100vw;
+    background-position:center left;
+}
+#navY{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 30px;
+}
+#navY1{
+    margin-top: 30px;
+    color: white;
+}
+#navY2{
+    display: flex;
+    justify-content: space-around;
+}
+.clY1{
+    margin-left:70px;
+    margin-top: 30px;
+    color: white;
+}
