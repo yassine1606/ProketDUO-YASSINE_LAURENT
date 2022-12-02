@@ -1,15 +1,24 @@
 body {
     margin: 0%;
-}
 
+}
+@font-face {
+    font-family: "yasco" ;
+    src: url(../font/FontsFree-Net-Arlon-Bold\ \(1\).ttf);
+}
 header {
     background-image: url(../img/header.jpg);
     background-color: aquamarine;
     height: 500px;
     width: 100vw;
-    background-position: center left;
+    background-position: 10px 60px;
+    font-family: "yasco" ;
+    padding-bottom: 100px;
 }
-
+#barreMauve{
+    height: 250px;
+    background-color: rgba(105,90,166,255);
+}
 #navY {
     display: flex;
     justify-content: space-around;
@@ -19,6 +28,7 @@ header {
 #navY1 {
     margin-top: 30px;
     color: white;
+    font-family: "yasco" ;
 }
 
 #navY2 {
@@ -29,7 +39,21 @@ header {
 .clY1 {
     margin-left: 70px;
     margin-top: 30px;
+    font-family: "yasco" ;
     color: white;
+}
+p{
+    font-family: "yasco" ;
+
+}
+div{
+    font-family: "yasco" ;
+}
+span{
+    font-family: "yasco" ;
+}
+h1{
+    font-family: "yasco" ;
 }
 
 #d2Y {
@@ -38,6 +62,7 @@ header {
     justify-content: center;
     margin-left: 200px;
     margin-top: 200px;
+    font-family: "yasco" ;
 }
 
 #s1Y {
@@ -47,14 +72,16 @@ header {
 #s2Y {
     letter-spacing: 15px;
     font-size: 20px;
+    font-family: "yasco" ;
 }
 
 #s3Y {}
 
 #btY1 {
-    background-color: purple;
+    background-color: rgba(105,90,166,255);
     color: #fff;
     border: none;
+    font-family: "yasco" ;
     border-radius: 10px;
 
 }
@@ -73,11 +100,13 @@ header {
 #ssY1 {}
 
 #ssY2 {
-    color: purple;
+    color: rgba(105,90,166,255);
+    font-family: "yasco" ;
 }
 
 #spp2Y {
-    color: purple;
+    color: rgba(105,90,166,255);
+    font-family: "yasco" ;
 }
 
 #d6Y {
@@ -88,6 +117,7 @@ header {
 }
 
 #cardY {
+
     padding: 100px;
     display: flex;
     justify-content: center;
@@ -96,6 +126,7 @@ header {
 }
 
 .cdY {
+    padding: 30px;
     height: 150px;
     width: 150px;
     border: 2px solid black;
@@ -103,8 +134,42 @@ header {
     margin-left: 2%;
     text-align: center;
     margin-top: 30px;
+    font-family: "yasco" ;
+}
+#btY2{
+
+    margin-top: 20px;
+    background-color: white;
+    color: rgba(105,90,166,255);
+    border: 2px rgba(105,90,166,255)solid;
+    border-radius: 25%;
+    font-family: "yasco" ;
+}
+.sssp1 {
+    color: rgba(105,90,166,255);
+    font-family: "yasco" ;
+}
+#txtY1{
+    
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#h1yy{
+    margin-top: 7%;
 }
 
-.sssp1 {
-    color: purple;
+#btHire{
+   margin-top: 100px;
+   margin-left: 10%;
+   background-color: white; /* Green */
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
 }
