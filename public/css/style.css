@@ -26,9 +26,9 @@
 }
 
 .photocardl {
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 20px;
+
+    padding-bottom: 10px;
+    margin-left: 40px;
 }
 
 .cards {
@@ -44,13 +44,14 @@
     grid-template-rows: max-content 200px 1fr;
     border: 1px grey solid;
     border: 1px solid rgba(237, 231, 225, 0, 4);
-    padding: 40px;
+    padding: 30px;
 }
 
 .card img {
     object-fit: cover;
     width: 60px;
     height: 60px;
+
 }
 
 
@@ -83,11 +84,11 @@ button {
 
 
 .croix2 {
-    
+
     display: flex;
     justify-content: center;
     align-items: center;
-    visibility:hidden
+    visibility: hidden
 }
 
 
@@ -98,24 +99,89 @@ button {
     align-items: center;
 }
 
-.descl{
+.descl {
     border: black 1px solid;
-margin-left: 180px;
-margin-right: 220px;
-    
+    margin-left: 180px;
+    margin-right: 220px;
+
 }
 
 
 .prempart {
-    overflow:hidden;
+    overflow: hidden;
 }
 
-.imgcadr { 
-    float: left;
+.imgcadr {
+
+width: 200px;
+height: 200px;
+}
+
+
+.txtcdr {
+        flex: 50%;
+      }
+
+ 
+
+
+
+:root {
+    box-sizing: border-box;
+  }
   
-}
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  
+
+  
+  
+
+  .about-container {
+    max-width: 720px;px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .about-container > * {
+    width: 100%;
+margin-left: 200px
+;
+
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid green;
+    margin: 20px 0 50px;
+  }
+  
+  @media (min-width: 52em) {
+    [class*="col-"] {
+      border: 1px solid grey
+    }
+  
+    .col-1 {
+      flex: 25%;
+    }
+  
+    .col-2 {
+      flex: 50%;
+    }
+  }
 
 
-.txtcdr{
+  .titrlun{
+    font-size: 20px;
+    color: #7b38d8;
+  }
 
+  .button:nth-child(2)
+  {
+background-color: red;
 }
