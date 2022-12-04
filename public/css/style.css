@@ -17,7 +17,6 @@
 
 .foliol {
     display: flex;
-    flex-flow: row nowrap;
     justify-content: center;
     margin: 5px;
 }
@@ -80,8 +79,8 @@ body {
 }
 /* header */
 header {
-    background-position : 10% 30%;
-background-image: url(../img/header.jpg);
+
+    background-image: url(../img/header.jpg);
     height: 70vh;
     width: 100%;
     background-position: 10% 30%;
@@ -323,7 +322,7 @@ background-color: red;
 
 .cdY {
     padding: 30px;
-    height: 150px;
+    height: 180px;
     width: 150px;
     border: 2px solid black;
     width: 130px;
