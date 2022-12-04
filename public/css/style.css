@@ -199,14 +199,14 @@ background-color: red;
 }
 
 
-  .container {
+  .containerll {
     display: flex;
     justify-content: center;
   }
-  .rectangle {
+  .rectanglell {
     position: relative;
     width: 400px;
-    height: 150px;
+    height: 180px;
     border: 2px solid grey;
     display: flex;
     align-items: center;
@@ -214,7 +214,7 @@ background-color: red;
     margin: 100px 50px;
     border-radius: 4px;
   }
-  .circle {
+  .circlell {
     position: absolute;
     left: -25px;
     width: 50px;
@@ -225,7 +225,7 @@ background-color: red;
     background-size: cover;
   }
 
-  .circle2 {
+  .circle2ll {
     position: absolute;
     left: -25px;
     width: 50px;
@@ -235,12 +235,12 @@ background-color: red;
     background-image: url("../../img/avatar2.jpg");
     background-size: cover;
   }
-  .text {
+  .textll {
     text-align: center;
     padding: 0 20px;
   }
 
-  .last  {
+  .lastll  {
   float: left;
     padding: 0 20px;
     color: blue;
