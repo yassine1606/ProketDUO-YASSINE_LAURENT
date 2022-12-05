@@ -1,3 +1,4 @@
+
 .p1l {
   display: flex;
   align-items: center;
@@ -69,10 +70,11 @@
 
 
 .footerl {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 
 
 .croix {
@@ -399,3 +401,4 @@
   }
 
 }
+
