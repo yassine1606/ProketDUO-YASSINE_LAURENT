@@ -16,10 +16,16 @@
 }
 
 .foliol {
+
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
   margin: 5px;
+
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+
 }
 
 .photohautl {
@@ -82,6 +88,36 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
+body {
+    margin: 0%;
+
+}
+@font-face {
+    font-family: "yasco" ;
+    src: url(../font/FontsFree-Net-Arlon-Bold\ \(1\).ttf);
+}
+/* header */
+header {
+
+    background-image: url(../img/header.jpg);
+    height: 70vh;
+    width: 100%;
+    background-position: 10% 30%;
+    object-fit: cover;
+    background-size: 100%;
+}
+/* barre mauve */
+#barreMauve{
+    height: 250px;
+    background-color: rgba(105,90,166,255);
+}
+/* navbar */
+#navY {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 30px;
+
 }
 
 
@@ -277,6 +313,7 @@
   background-color: #008CBA;
 }
 
+
 .container:hover .overlay {
   opacity: 0.8;
 }
@@ -303,6 +340,10 @@
     text-align: center;
     margin-right: 35%;
     font-size: 25px;
+
+:root {
+    box-sizing: border-box;
+
   }
 
   header {
@@ -372,6 +413,12 @@
 
   #navYY2 {
     display: block;
+.cdY {
+    padding: 30px;
+    height: 180px;
+    width: 300px;
+    border: 2px solid black;
+    margin-left: 2%;
     text-align: center;
     margin-right: 35%;
 
